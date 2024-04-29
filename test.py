@@ -21,7 +21,7 @@ def test():
     all_true_labels = []
     all_predicted_labels = []
     correct_12 = 0
-    total = 389
+    total = np.load('test_data/test_signal.npy').shape[0]
     y_true=list()
     y_pred=list()
     model.eval()
